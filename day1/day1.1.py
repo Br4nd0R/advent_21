@@ -1,4 +1,4 @@
-with open("input.py", "r") as f:
+with open("input.txt", "r") as f:
     depths = [int(d[:-1]) for d in f.readlines()]
 
 num_increases = 0
